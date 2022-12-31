@@ -77,6 +77,10 @@
       <TargetMachine>MachineX64</TargetMachine>
       <AdditionalDependencies>$(SolutionDir)..\..\thirdparty\lib\Compressonator_MTd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
@@ -107,6 +111,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\VTFLib\CubemapToEquirectangular.cpp" />
     <ClCompile Include="..\..\..\VTFLib\Error.cpp" />
     <ClCompile Include="..\..\..\VTFLib\FileReader.cpp" />
     <ClCompile Include="..\..\..\VTFLib\FileWriter.cpp" />

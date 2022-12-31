@@ -114,6 +114,9 @@
     <ClCompile Include="..\..\..\VTFLib\Float16.cpp">
       <Filter>Source Files\Miscellaneous</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\VTFLib\CubemapToEquirectangular.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\VTFLib\Proc.h">
